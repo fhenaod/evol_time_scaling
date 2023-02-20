@@ -3,7 +3,7 @@ library(ggthemes)
 library(ggpubr)
 library(cowplot)
 
-path <- c("~/Dropbox/Proyectos/UBC/Biology/Harmon_et_al_AREEs/data/")
+path <- c("Harmon_et_al_AREEs/data/")
 ho <- read.delim(paste0(path,"Ho_et_al_2007_syst_biol.csv"), sep = ",", header = T)
 uyeda <- read.delim(paste0(path,"Dryad7.csv"), sep = ",", header = T)
 uyeda_2 <- read.delim(paste0(path, "Phylogeniesbynode.csv"), sep = ",", header = T)
